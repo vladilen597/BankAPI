@@ -1,0 +1,39 @@
+h3{
+	text-align: center;
+	font-size: 40px;
+}
+
+body{
+	font-family: 'Sen', sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.name{
+	text-align: center;
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+	grid-template-rows: repeat(5, 50px);
+	grid-gap: 5px;
+}
+
+div{
+	background-color: #f5f5dc;
+	border-radius: 5px;
+}
+
+.thumb{
+	font-size: 16px;
+	background-image: url(img/belagro.png);
+}
+
+select, option{
+	font-family: 'Sen', sans-serif;
+	border-radius: 10px;
+	font-size: 25px;
+	font-weight: 700;
+}
+
+img{
+	
+}
