@@ -27,25 +27,44 @@
 			<div></div>
 			<div></div>
 			<div></div>
-			<div class="thumb">БеларусьБанк <img src="img/bbank.png" alt="bbank" height="20px" width="20px"></div>
+			<div class="thumb1">БеларусьБанк</div>
 			<div id="usd_cost"></div>
 			<div id="eur_cost"></div>
 			<div id="uah_cost"></div>
 			<div id="rub_cost"></div>
 			<div id="yuan_cost"></div>
-			<div class="thumb">БелАгроПромБанк <img src="img/belagro.png" alt="belagrobank" height="20px" width="20px"></div>
-			<div id="usd_cost"></div>
-			<div id="eur_cost"></div>
-			<div id="uah_cost"></div>
-			<div id="rub_cost"></div>
-			<div id="yuan_cost"></div>
+			<div class="thumb2">БелАгроПромБанк</div>
+			<div id="usd_cost1"></div>
+			<div id="eur_cost1"></div>
+			<div id="uah_cost1"></div>
+			<div id="rub_cost1"></div>
+			<div id="yuan_cost1"></div>
+			<div class="thumb3">БелГазПром</div>
+			<div id="usd_cost2"></div>
+			<div id="eur_cost2"></div>
+			<div id="uah_cost2"></div>
+			<div id="rub_cost2"></div>
+			<div id="yuan_cost2"></div>
+			<div class="thumb4">МТБанк</div>
+			<div id="usd_cost3"></div>
+			<div id="eur_cost3"></div>
+			<div id="uah_cost3"></div>
+			<div id="rub_cost3"></div>
+			<div id="yuan_cost3"></div>
 	</section>
-	<!--<section>
-		<select name="select1" id="select">
-			<option value="USD">Доллар США</option>
-			<option value="EUR">Евро</option>
-			<option value="RUB">Российский рубль</option>
-		</select>-->
+	<section class="converter">	
+		<select name="select" id="select">
+			<option value="1" id="usdConv">Доллар США</option>
+			<option value="2" id="eurConv">Евро</option>
+			<option value="3" id="rubConv">Российский рубль</option>
+			<option value="4" id="uahConv">Украинская гривна</option>
+			<option value="5" id="yuanConv">Китайский юань</option>
+		</select>
+		<i></i>
+		<div class="bel">Белорусский рубль</div>
+		<input type="text" placeholder="Enter amount of cash" id="inputConv">
+		<button id="btn">=</button>
+		<div class="output" id="output"></div>
 	</section>
 	<script src="js/script.js"></script>
 </body>

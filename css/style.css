@@ -13,7 +13,7 @@ body{
 	text-align: center;
 	display: grid;
 	grid-template-columns: repeat(6, 1fr);
-	grid-template-rows: repeat(5, 50px);
+	grid-template-rows: repeat(7, 50px);
 	grid-gap: 5px;
 }
 
@@ -22,9 +22,32 @@ div{
 	border-radius: 5px;
 }
 
-.thumb{
+.thumb, .thumb1, .thumb2, .thumb3, .thumb4{
 	font-size: 16px;
-	background-image: url(img/belagro.png);
+}
+
+.thumb1{
+	background-image: url(../img/bbank.png);
+	background-repeat: no-repeat;
+	background-size: 50px;
+}
+
+.thumb2{
+	background-image: url(../img/belagro.png);
+	background-repeat: no-repeat;
+	background-size: 50px;
+}
+
+.thumb3{
+	background-image: url(../img/bgaz.png);
+	background-repeat: no-repeat;
+	background-size: 50px;
+}
+
+.thumb4{
+	background-image: url(../img/mt.jpg);
+	background-repeat: no-repeat;
+	background-size: 50px;
 }
 
 select, option{
@@ -34,6 +57,40 @@ select, option{
 	font-weight: 700;
 }
 
-img{
-	
+.converter{
+	justify-content: center;
+	display: grid;
+	text-align: center;
+	margin-top: 10vh;
+	grid-template-rows: repeat(2, 50px);
+	grid-template-columns: 350px 50px 350px;
+	grid-gap: 10px;
+}
+
+.bel{
+	align-self: center;
+	background-color: #fff;
+}
+
+.output{
+	background-color: #fff;
+	border-radius: 10px;
+	border: 1px solid #000;
+	font-family: 'Sen', sans-serif;
+	font-size: 30px;
+}
+
+input, button{
+	border-radius: 10px;
+	font-size: 20px;
+	border: 1px solid #000;
+}
+
+button{
+	cursor: pointer;
+}
+
+button:hover{
+	color: #fff;
+	background-color: #000;
 }
